@@ -53,8 +53,8 @@ public class Programme2 {
     }
 
     //Calculating the results on subjects marks
-    public static String calculateResult(int mathMarks, int scienceMarks, int englishMqarks) {
-        if (mathMarks < 35 || scienceMarks < 35 || englishMqarks < 35) {
+    public static String calculateResult(int mathMarks, int scienceMarks, int englishMarks) {
+        if (mathMarks < 35 || scienceMarks < 35 || englishMarks < 35) {
             return "FAIL";
         } else
             return "PASS";
